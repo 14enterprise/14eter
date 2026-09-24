@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>14Eter Limited | Technical Software Partner</title>
+ <style>
+ :root {
+ --primary: #0066cc;
+ --primary-dark: #004c99;
+ --text: #333333;
+ --light: #f4f7f6;
+ --white: #ffffff;
+ --accent: #ff9900;
+ }
+
+ * {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+
+ body {
+ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ color: var(--text);
+ line-height: 1.6;
+ background-color: var(--light);
+ }
+
+ .container {
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 0 20px;
+ }
+
+ header {
+ background-color: var(--white);
+ padding: 20px 0;
+ border-bottom: 3px solid var(--primary);
+ }
+
+ nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+
+ .logo {
+ font-weight: bold;
+ font-size: 24px;
+ color: var(--primary);
+ letter-spacing: -0.5px;
+ }
+
+ .hero {
+ background-color: var(--white);
+ padding: 80px 0;
+ text-align: center;
+ }
+
+ .hero h1 {
+ font-size: 48px;
+ margin-bottom: 20px;
+ color: var(--text);
+ line-height: 1.2;
+ }
+
+ .hero p {
+ font-size: 20px;
+ color: #666;
+ max-width: 700px;
+ margin: 0 auto 40px;
+ }
+
+ .btn {
+ display: inline-block;
+ background-color: var(--primary);
+ color: var(--white);
+ padding: 16px 32px;
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: bold;
+ border-radius: 5px;
+ transition: background-color 0.3s;
+ }
+
+ .btn:hover {
+ background-color: var(--primary-dark);
+ }
+
+ .section {
+ padding: 80px 0;
+ }
+
+ .section-title {
+ text-align: center;
+ font-size: 36px;
+ margin-bottom: 50px;
+ }
+
+ .grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 40px;
+ align-items: center;
+ }
+
+ .card {
+ background-color: var(--white);
+ padding: 40px;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+ height: 100%;
+ }
+
+ .card h3 {
+ font-size: 24px;
+ margin-bottom: 15px;
+ color: var(--primary);
+ }
+
+ .card p {
+ color: #666;
+ }
+
+ .process-flow {
+ background-color: var(--white);
+ padding: 80px 0;
+ }
+
+ .steps {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 30px;
+ text-align: center;
+ }
+
+ .step {
+ padding: 20px;
+ }
+
+ .step-num {
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ background-color: var(--accent);
+ color: var(--white);
+ border-radius: 50%;
+ font-size: 24px;
+ font-weight: bold;
+ line-height: 50px;
+ margin-bottom: 20px;
+ }
+
+ footer {
+ background-color: var(--text);
+ color: var(--white);
+ text-align: center;
+ padding: 30px 0;
+ font-size: 14px;
+ }
+
+ @media (max-width: 768px) {
+ .hero h1 { font-size: 36px; }
+ .hero p { font-size: 18px; }
+ .grid, .steps { grid-template-columns: 1fr; }
+ }
+ </style>
+</head>
+<body>
+
+ <header>
+ <div class="container">
+ <nav>
+ <div class="logo">14Eter Limited</div>
+ <a href="#contact" class="btn">Pitch Your Project</a>
+ </nav>
+ </div>
+ </header>
+
+ <section class="hero">
+ <div class="container">
+ <h1>We Build and Manage Your Software Vision.</h1>
+ <p>14Eter Limited partners with ambitious startups to deliver expert full-stack development, aligned for long-term growth through an equity-inclusive model.</p>
+ <a href="#contact" class="btn">Partner With Us</a>
+ </div>
+ </section>
+
+ <section class="section" id="model">
+ <div class="container">
+ <h2 class="section-title">Our Business Partnership</h2>
+ <div class="grid">
+ <div class="card">
+ <h3>Technical Execution</h3>
+ <p>14Eter Limited handles the core software engineering and technical architecture. We build robust, scalable applications tailored directly to your roadmap.</p>
+ </div>
+ <div class="card">
+ <h3>Equity-Aligned Incentives</h3>
+ <p>We believe in shared long-term success. Combining a base development fee with an equity stake aligns our goals directly with your company's valuation.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <section class="process-flow">
+ <div class="container">
+ <h2 class="section-title">How We Work Together</h2>
+ <div class="steps">
+ <div class="step">
+ <div class="step-num">1</div>
+ <h3>Client Infrastructure Setup</h3>
+ <p>Your designated Project Manager sets up required operational services—including hosting, databases, and third-party APIs.</p>
+ </div>
+ <div class="step">
+ <div class="step-num">2</div>
+ <h3>Milestone Development</h3>
+ <p>14Eter Limited executes the technical builds based on agreed milestone schedules to deliver secure, functional code.</p>
+ </div>
+ <div class="step">
+ <div class="step-num">3</div>
+ <h3>Long-Term Support</h3>
+ <p>We provide ongoing technical engineering and application maintenance to help your product scale smoothly as you grow.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <section class="section" id="contact" style="background-color: var(--white);">
+ <div class="container" style="max-width: 600px; text-align: center;">
+ <h2 class="section-title">Ready to Partner?</h2>
+ <p style="margin-bottom: 40px; font-size: 18px;">Get in touch with 14Eter Limited today to submit your project details and receive our agreement documents.</p>
+ <a href="mailto:contact@14eter.org" class="btn" style="background-color: var(--accent);">Send Project Requirements</a>
+ </div>
+ </section>
+
+ <footer>
+ <div class="container">
+ <p>&copy; 2026 14Eter Limited. All rights reserved.</p>
+ </div>
+ </footer>
+
+</body>
+</html>
